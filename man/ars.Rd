@@ -50,8 +50,8 @@ W. R. Gilks and P. Wild (1992)
 \seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
-\examples{ars("dnorm(x,1,1)", 500, -1, 10)
-ars("dgamma(x, 2, rate = 1)", 1000, 1, 5)
+\examples{ars("dnorm(x,1,1)", 50, -1, 10)
+ars("dgamma(x, 2, rate = 1)", 10, 1, 5)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
