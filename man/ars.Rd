@@ -1,7 +1,7 @@
 \name{Implementing an Adaptive-Rejection Sampler}
 \alias{Documentation}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{Implementing an Adaptive-Rejection Sampler
 %%  Implementing an Adaptive-Rejection Sampler
 }
 \description{
