@@ -6,10 +6,16 @@ author: Rachel Hu, Lin Yang, Jonathan Chen
 
 GitHub Username: goldmermaid
 
+APPROACHES
 
-APPROACH
+TESTS
 
-describe the approach you took in terms of functions/modularity/object-oriented programming, and the testing that you carried out. 
+As for the tests, the first part is the test for the overall function. The goal of this part is to know whether or not our ars() funciton is sampling correctly. The logic is that we bin the samples inside the lower bound and the upper bound. And then we calculate the probability of the samples residing in each of the bins and comparing it to the desired cdf of that distribution. Then we pick out the maximum difference from all the bins and then compare it to a predetermined threshold. We perform the tests for the normal distribution,
+the uniform distribution and the Gamma distribution.
+
+The second part of the tests is the unit test. In this part, we perform the tests to see if all the auxiliary funcitons are performing properly. For Intersect_Z fuction, we test to see if the function could arrange Z_k in the correct order; For U_k fuction, we test to see if the function could return the correct tangent line; For Integrate_ExpU_k function, we test to see if the function could properly calculate the sum of the integrals, which are required to get the S_k function; For L_k function, we test to see if the function could return the correct secant line formed by X_k.
+
+The third part of the tests is the module test. There are three modules: Initial_X step module, Sample_step Module and Rejection_step module. For the Initial_X step, we test if the function can return the correct initial X_k values given the circumstances; For the Sample_step, we test if the logic of the sampling is correct using some known pdf; For the Rejection_step, we test if the function can assign correct true/false values for a certain sample point.
 
 
 CONTRIBUTIONS
