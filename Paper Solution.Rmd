@@ -1,0 +1,17 @@
+---
+title: "Paper Solution"
+output: pdf_document
+author: Rachel Hu, Lin Yang, Jonathan Chen
+---
+
+GitHub Username: goldmermaid
+
+
+APPROACH
+
+describe the approach you took in terms of functions/modularity/object-oriented programming, and the testing that you carried out. 
+
+
+CONTRIBUTIONS
+
+Rachel mainly focused on writing the functions and algorithms. Lin wrote the test cases and consulted with Rachel when errors occured. Jonathan contributed ideas to both parties during the process and eventually generated the documentation page. All members were involved and enjoyed this project as the end of semester closes in.
