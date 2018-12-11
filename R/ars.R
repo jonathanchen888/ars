@@ -172,7 +172,7 @@ ars <- function(g, n, lb, ub){
   X_init <- Initial_X(h,lb,ub)
   X_k <- X_init
   samples = c()
-  batchsize <- 1.2*n  ## batchsize to sample
+  batchsize <- 10  ## batchsize to sample
 
   while(length(samples) < n){
 
