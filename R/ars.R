@@ -111,7 +111,7 @@ Rejection_step <- function(x_star,h,X_k,Z_k){
   }
 
   ## whether to accept candidate sample point, and whether add the point into X
-  return(c(acc=accept,upd=update))
+  return(c(accept=accept,update=update))
 }
 
 

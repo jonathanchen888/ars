@@ -4,6 +4,9 @@ library(ars)
 # context with one test that groups expectations
 context("Tests for ARS() and auxiliary functions")
 
+library(rootSolve)
+library(assertthat)
+
 # Tests for the overall function
 # Normal distribution test
 test_that("ars() used for normal dist", {
