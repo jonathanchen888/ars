@@ -1,3 +1,3 @@
 library(testthat)
-library(tests)
-test_package("tests")
+library(ars)
+test_package("ars")
