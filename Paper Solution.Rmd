@@ -4,9 +4,11 @@ output: pdf_document
 author: Rachel Hu, Lin Yang, Jonathan Chen
 ---
 
-GitHub Username: goldmermaid
+GitHub Username: jonathanchen888
 
 APPROACHES
+
+The functions are direct implementations of the Adaptive Rejection Sampler based on Adaptive Rejection Sampling for Gibbs Sampling W. R. Gilks and P. Wild (1992). The equations are (1) Compute intersection points Z (2) Finding the upper bound (3) Finding the envelop function (4) Finding the lower bound. These auxiliary functions are then joined with the primary ars function. The output of this function returns samples from a desired probability density function with parameters specified. The algorithms and approaches are rather straightforward.
 
 TESTS
 
