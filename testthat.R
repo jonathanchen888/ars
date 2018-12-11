@@ -1,6 +1,6 @@
 # load the source code of the functions to be tested
 
-source("ARS.R")
+source("ars.R")
 
 
 
