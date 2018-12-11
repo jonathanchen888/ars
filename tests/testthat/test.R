@@ -11,15 +11,15 @@ library(assertthat)
 # Normal distribution test
 test_that("ars() used for normal dist", {
   g <- function(x){return(dnorm(x,0,1))}
-  sample_norm <- ars(g,1000,-3,3) # Generate normal samples from ars()
+  sample_norm <- ars(g,1000,-2,2) # Generate normal samples from ars()
   sample_norm_cdf <- c()
   true_norm_cdf <- c()
-  test_norm_interval <- seq(-3,3,0.5)# Test array
+  test_norm_interval <- seq(-2,2,0.5)# Test array
   for (i in 1:(length(test_norm_interval)-1)){
     # The difference of sample normal interval cdf
     sample_norm_cdf[i] <- (sum(sample_norm < test_norm_interval[i+1])-sum(sample_norm < test_norm_interval[i]))/1000
     # The difference of true normal interval cdf 
-    true_norm_cdf[i] <- (pnorm(test_norm_interval[i+1])-pnorm(test_norm_interval[i]))/(pnorm(3)-pnorm(-3))
+    true_norm_cdf[i] <- (pnorm(test_norm_interval[i+1])-pnorm(test_norm_interval[i]))/(pnorm(2)-pnorm(-2))
   }
   # Take the maximum error
   max_norm_error <- max(abs(sample_norm_cdf-true_norm_cdf))
