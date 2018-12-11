@@ -1,12 +1,12 @@
 # load the source code of the functions to be tested
 
-source("ars.R")
+#source("ars.R")
 
 
 
 # context with one test that groups expectations
 
-context("Tests for ARS() and auxiliary functions")
+#context("Tests for ARS() and auxiliary functions")
 
 
 
